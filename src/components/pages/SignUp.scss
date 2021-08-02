@@ -1,0 +1,18 @@
+body {
+  background-image: url("/images/img-2.jpg");
+}
+.sign-in-and-sign-up {
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+@media only screen and (max-width: 768px) {
+  .sign-in-and-sign-up {
+    flex-direction: column;
+    margin-top: 25px;
+    width: 70vw;
+    justify-content: center;
+    text-align: center;
+  }
+}
